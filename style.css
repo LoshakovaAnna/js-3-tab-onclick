@@ -1,0 +1,26 @@
+.numbers-table{
+    display: flex;
+    flex-direction: row;
+}
+.number-cell{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: coral;
+    text-align: center;
+}
+.number-cell:hover{
+    border: dodgerblue 2px solid;
+}
+.window{
+   
+    background-color: gold;
+    visibility: hidden;
+}
+.window-active{
+    background-color: darkslategray;
+    visibility: visible;
+    width: 400px;
+    height: 400px;
+    font-size: 50px;
+}
