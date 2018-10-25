@@ -1,26 +1,36 @@
 .numbers-table{
     display: flex;
     flex-direction: row;
+    border: solid 2px #3e3a3a;
+    margin: 0 auto;
+    width: 410px;
 }
 .number-cell{
     width: 100px;
-    height: 100px;
+    height: 70px;
     font-size: 50px;
-    background-color: coral;
+    border: transparent 2px solid;
+    background-color: #e4e2e2;
     text-align: center;
 }
 .number-cell:hover{
-    border: dodgerblue 2px solid;
+    border: #208dfa 2px solid;
 }
 .window{
-   
-    background-color: gold;
-    visibility: hidden;
-}
-.window-active{
-    background-color: darkslategray;
-    visibility: visible;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #e7f0f0;
+    border: solid 2px #ff0000;
     width: 400px;
-    height: 400px;
+    height: 300px;
     font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.window-hide{
+    display: none;
+}
+.window-active{   
+    display:block;
 }
